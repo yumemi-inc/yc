@@ -1,0 +1,35 @@
+{
+  "name": "yc",
+  "version": "0.0.1",
+  "description": "Yumemi (React) Components",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "esbuild src/lib.tsx --bundle --outdir=www/components",
+    "dev": "esbuild src/lib.tsx --bundle --outdir=www/components --servedir=www"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/yumemi-inc/yc.git"
+  },
+  "keywords": [
+    "react",
+    "component",
+    "library"
+  ],
+  "author": "Kirill Vasiltsov",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/yumemi-inc/yc/issues"
+  },
+  "homepage": "https://github.com/yumemi-inc/yc#readme",
+  "dependencies": {
+    "esbuild": "^0.12.12",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.8"
+  }
+}
